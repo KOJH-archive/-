@@ -1,0 +1,378 @@
+{
+  "job_id": "a807a7f055d44d788f03bb0f7e3462ae",
+  "question": "가상 통지 기록 유무에 따른 확인 절차를 검토",
+  "status": "COMPLETED",
+  "law_hits": [
+    {
+      "source_id": "900001",
+      "law_id": "DEMO-001",
+      "name": "[가상 예시] 샘플거래법",
+      "effective_date": "20990101",
+      "promulgation_date": "",
+      "ministry": "가상 자료",
+      "source_url": "",
+      "source_type": "FICTIONAL_DEMO"
+    }
+  ],
+  "case_hits": [
+    {
+      "source_id": "900002",
+      "case_number": "가상2099예시1",
+      "case_name": "[가상 예시] 기록 확인 사건",
+      "court": "가상 법원",
+      "judgment_date": "20991231",
+      "source_url": "",
+      "source_type": "FICTIONAL_DEMO"
+    },
+    {
+      "source_id": "900003",
+      "case_number": "가상2099예시2",
+      "case_name": "[가상 예시] 기록 누락 사건",
+      "court": "가상 법원",
+      "judgment_date": "20991231",
+      "source_url": "",
+      "source_type": "FICTIONAL_DEMO"
+    }
+  ],
+  "sources": [
+    {
+      "id": "FICTIONAL_DEMO:statute:900001",
+      "type": "statute",
+      "name": "[가상 예시] 샘플거래법",
+      "url": "",
+      "effective_date": "20990101",
+      "article_count": 3,
+      "excerpt": "제1조 (목적)\n이 가상 법은 소프트웨어 기능의 시연을 위한 예시이다.\n\n제2조 (통지)\n샘플 거래 당사자는 가상 통지를 기록할 수 있다.\n\n제3조 (기록 확인)\n가상 통지는 예시 기록에 의해 확인된다.",
+      "sha256": "578255a578e8f066f90a907eacb779c2d1dcf998247813dddd5557114170ac13",
+      "fetched_at": "2026-11-10T09:48:09+00:00",
+      "source_type": "FICTIONAL_DEMO"
+    },
+    {
+      "id": "FICTIONAL_DEMO:precedent:900002",
+      "type": "precedent",
+      "name": "가상 법원 가상2099예시1 [가상 예시] 기록 확인 사건",
+      "url": "",
+      "judgment_date": "20991231",
+      "excerpt": "가상 기록이 존재하면 예시 절차에서 확인 표시를 할 수 있다.",
+      "sha256": "65a47108809230e2ba066e20fb679bc99a93afd358fca3509558e5040b10faf2",
+      "fetched_at": "2026-11-10T09:48:09+00:00",
+      "source_type": "FICTIONAL_DEMO"
+    },
+    {
+      "id": "FICTIONAL_DEMO:precedent:900003",
+      "type": "precedent",
+      "name": "가상 법원 가상2099예시2 [가상 예시] 기록 누락 사건",
+      "url": "",
+      "judgment_date": "20991231",
+      "excerpt": "가상 기록이 누락되면 예시 절차에서 확인 표시를 할 수 없다.",
+      "sha256": "329197786c94b227e65808fdaefa7c8ddbd5e87a42e6fe14bde7160bd6be01de",
+      "fetched_at": "2026-11-10T09:48:09+00:00",
+      "source_type": "FICTIONAL_DEMO"
+    }
+  ],
+  "claims": [
+    {
+      "text": "확보된 원문 발췌 (AI 법률 판단 아님)",
+      "source_id": "FICTIONAL_DEMO:statute:900001",
+      "quote": "이 가상 법은 소프트웨어 기능의 시연을 위한 예시이다.",
+      "status": "QUOTE_MATCH_ONLY",
+      "reason": "원문 문구 일치 확인. 주장의 법적 타당성은 별도 검토 필요",
+      "role": "evidence",
+      "locator": "원문 문자 10–39 / 줄 2",
+      "source_hash": "578255a578e8f066f90a907eacb779c2d1dcf998247813dddd5557114170ac13",
+      "temporal_status": "NOT_CHECKED"
+    },
+    {
+      "text": "확보된 원문 발췌 (AI 법률 판단 아님)",
+      "source_id": "FICTIONAL_DEMO:precedent:900002",
+      "quote": "가상 기록이 존재하면 예시 절차에서 확인 표시를 할 수 있다.",
+      "status": "QUOTE_MATCH_ONLY",
+      "reason": "원문 문구 일치 확인. 주장의 법적 타당성은 별도 검토 필요",
+      "role": "evidence",
+      "locator": "원문 문자 34–67 / 줄 3",
+      "source_hash": "65a47108809230e2ba066e20fb679bc99a93afd358fca3509558e5040b10faf2",
+      "temporal_status": "NOT_CHECKED"
+    },
+    {
+      "text": "확보된 원문 발췌 (AI 법률 판단 아님)",
+      "source_id": "FICTIONAL_DEMO:precedent:900003",
+      "quote": "가상 통지 기록이 누락된 경우의 확인 여부",
+      "status": "QUOTE_MATCH_ONLY",
+      "reason": "원문 문구 일치 확인. 주장의 법적 타당성은 별도 검토 필요",
+      "role": "evidence",
+      "locator": "원문 문자 18–40 / 줄 2",
+      "source_hash": "329197786c94b227e65808fdaefa7c8ddbd5e87a42e6fe14bde7160bd6be01de",
+      "temporal_status": "NOT_CHECKED"
+    }
+  ],
+  "excluded_claims": [],
+  "summary": "가상 시연 자료를 분석했습니다. 실제 대한민국 법령·판례가 아닙니다.",
+  "warnings": [],
+  "source_mode": "fictional_demo",
+  "steps": [
+    {
+      "role": "planner",
+      "status": "COMPLETED",
+      "detail": "법령: 샘플거래법; 판례 검색 1개; 본문 최대 5개 + 반론 최대 3개",
+      "source_ids": [],
+      "started_at": "",
+      "finished_at": "2026-11-10T09:48:09+00:00"
+    },
+    {
+      "role": "statute_researcher",
+      "status": "COMPLETED",
+      "detail": "",
+      "source_ids": [
+        "FICTIONAL_DEMO:statute:900001"
+      ],
+      "started_at": "",
+      "finished_at": "2026-11-10T09:48:09+00:00"
+    },
+    {
+      "role": "case_researcher",
+      "status": "COMPLETED",
+      "detail": "2개 원문 순위화",
+      "source_ids": [
+        "FICTIONAL_DEMO:precedent:900002",
+        "FICTIONAL_DEMO:precedent:900003"
+      ],
+      "started_at": "",
+      "finished_at": "2026-11-10T09:48:09+00:00"
+    },
+    {
+      "role": "counter_searcher",
+      "status": "COMPLETED",
+      "detail": "후보 2건",
+      "source_ids": [
+        "FICTIONAL_DEMO:precedent:900003",
+        "FICTIONAL_DEMO:precedent:900002"
+      ],
+      "started_at": "",
+      "finished_at": "2026-11-10T09:48:09+00:00"
+    },
+    {
+      "role": "case_analyst",
+      "status": "COMPLETED",
+      "detail": "2개 판결문 구조 추출",
+      "source_ids": [
+        "FICTIONAL_DEMO:precedent:900002",
+        "FICTIONAL_DEMO:precedent:900003"
+      ],
+      "started_at": "",
+      "finished_at": "2026-11-10T09:48:09+00:00"
+    },
+    {
+      "role": "legal_analyst",
+      "status": "SKIPPED",
+      "detail": "AI 추론 비활성화",
+      "source_ids": [],
+      "started_at": "",
+      "finished_at": "2026-11-10T09:48:09+00:00"
+    },
+    {
+      "role": "opposition_analyst",
+      "status": "SKIPPED",
+      "detail": "AI 추론 비활성화",
+      "source_ids": [],
+      "started_at": "",
+      "finished_at": "2026-11-10T09:48:09+00:00"
+    },
+    {
+      "role": "reviewer",
+      "status": "SKIPPED",
+      "detail": "AI 추론 비활성화",
+      "source_ids": [],
+      "started_at": "",
+      "finished_at": "2026-11-10T09:48:09+00:00"
+    },
+    {
+      "role": "citation_verifier",
+      "status": "COMPLETED",
+      "detail": "원문 일치 3건 / 법적 타당성 미보증",
+      "source_ids": [],
+      "started_at": "",
+      "finished_at": "2026-11-10T09:48:09+00:00"
+    },
+    {
+      "role": "memo_writer",
+      "status": "COMPLETED",
+      "detail": "문구 대조된 근거와 반론을 검토서 초안으로 구성",
+      "source_ids": [],
+      "started_at": "",
+      "finished_at": "2026-11-10T09:48:09+00:00"
+    }
+  ],
+  "analyses": [
+    {
+      "source_id": "FICTIONAL_DEMO:precedent:900002",
+      "case_number": "가상2099예시1",
+      "sections": {
+        "판시사항": "가상 통지 기록의 확인 여부",
+        "판결요지": "가상 기록이 존재하면 예시 절차에서 확인 표시를 할 수 있다.",
+        "참조조문": "[가상 예시] 샘플거래법 제3조",
+        "주문": "가상 확인 요청을 받아들인다.",
+        "이유": "이 문장은 소프트웨어 시험용으로 만든 가상 판결문이다. 실제 판례가 아니다. 가상 기록이 존재한다."
+      },
+      "claims": [
+        {
+          "text": "판시사항 원문 발췌",
+          "source_id": "FICTIONAL_DEMO:precedent:900002",
+          "quote": "가상 통지 기록의 확인 여부",
+          "status": "QUOTE_MATCH_ONLY",
+          "reason": "원문 문구 일치 확인. 주장의 법적 타당성은 별도 검토 필요",
+          "role": "case_analyst",
+          "locator": "원문 문자 18–32 / 줄 2",
+          "source_hash": "65a47108809230e2ba066e20fb679bc99a93afd358fca3509558e5040b10faf2",
+          "temporal_status": "NOT_CHECKED"
+        },
+        {
+          "text": "판결요지 원문 발췌",
+          "source_id": "FICTIONAL_DEMO:precedent:900002",
+          "quote": "가상 기록이 존재하면 예시 절차에서 확인 표시를 할 수 있다.",
+          "status": "QUOTE_MATCH_ONLY",
+          "reason": "원문 문구 일치 확인. 주장의 법적 타당성은 별도 검토 필요",
+          "role": "case_analyst",
+          "locator": "원문 문자 34–67 / 줄 3",
+          "source_hash": "65a47108809230e2ba066e20fb679bc99a93afd358fca3509558e5040b10faf2",
+          "temporal_status": "NOT_CHECKED"
+        },
+        {
+          "text": "주문 원문 발췌",
+          "source_id": "FICTIONAL_DEMO:precedent:900002",
+          "quote": "가상 확인 요청을 받아들인다.",
+          "status": "QUOTE_MATCH_ONLY",
+          "reason": "원문 문구 일치 확인. 주장의 법적 타당성은 별도 검토 필요",
+          "role": "case_analyst",
+          "locator": "원문 문자 94–109 / 줄 7",
+          "source_hash": "65a47108809230e2ba066e20fb679bc99a93afd358fca3509558e5040b10faf2",
+          "temporal_status": "NOT_CHECKED"
+        },
+        {
+          "text": "이유 원문 발췌",
+          "source_id": "FICTIONAL_DEMO:precedent:900002",
+          "quote": "이 문장은 소프트웨어 시험용으로 만든 가상 판결문이다. 실제 판례가 아니다. 가상 기록이 존재한다.",
+          "status": "QUOTE_MATCH_ONLY",
+          "reason": "원문 문구 일치 확인. 주장의 법적 타당성은 별도 검토 필요",
+          "role": "case_analyst",
+          "locator": "원문 문자 117–171 / 줄 9",
+          "source_hash": "65a47108809230e2ba066e20fb679bc99a93afd358fca3509558e5040b10faf2",
+          "temporal_status": "NOT_CHECKED"
+        }
+      ],
+      "excluded_claims": [],
+      "warnings": [],
+      "coverage": "EXTRACTIVE"
+    },
+    {
+      "source_id": "FICTIONAL_DEMO:precedent:900003",
+      "case_number": "가상2099예시2",
+      "sections": {
+        "판시사항": "가상 통지 기록이 누락된 경우의 확인 여부",
+        "판결요지": "가상 기록이 누락되면 예시 절차에서 확인 표시를 할 수 없다.",
+        "참조조문": "[가상 예시] 샘플거래법 제3조",
+        "주문": "가상 확인 요청을 받아들이지 않는다.",
+        "이유": "이것은 실제 판례가 아닌 가상 시험 자료이다. 가상 기록이 누락되어 확인할 수 없다."
+      },
+      "claims": [
+        {
+          "text": "판시사항 원문 발췌",
+          "source_id": "FICTIONAL_DEMO:precedent:900003",
+          "quote": "가상 통지 기록이 누락된 경우의 확인 여부",
+          "status": "QUOTE_MATCH_ONLY",
+          "reason": "원문 문구 일치 확인. 주장의 법적 타당성은 별도 검토 필요",
+          "role": "case_analyst",
+          "locator": "원문 문자 18–40 / 줄 2",
+          "source_hash": "329197786c94b227e65808fdaefa7c8ddbd5e87a42e6fe14bde7160bd6be01de",
+          "temporal_status": "NOT_CHECKED"
+        },
+        {
+          "text": "판결요지 원문 발췌",
+          "source_id": "FICTIONAL_DEMO:precedent:900003",
+          "quote": "가상 기록이 누락되면 예시 절차에서 확인 표시를 할 수 없다.",
+          "status": "QUOTE_MATCH_ONLY",
+          "reason": "원문 문구 일치 확인. 주장의 법적 타당성은 별도 검토 필요",
+          "role": "case_analyst",
+          "locator": "원문 문자 42–75 / 줄 3",
+          "source_hash": "329197786c94b227e65808fdaefa7c8ddbd5e87a42e6fe14bde7160bd6be01de",
+          "temporal_status": "NOT_CHECKED"
+        },
+        {
+          "text": "주문 원문 발췌",
+          "source_id": "FICTIONAL_DEMO:precedent:900003",
+          "quote": "가상 확인 요청을 받아들이지 않는다.",
+          "status": "QUOTE_MATCH_ONLY",
+          "reason": "원문 문구 일치 확인. 주장의 법적 타당성은 별도 검토 필요",
+          "role": "case_analyst",
+          "locator": "원문 문자 102–121 / 줄 7",
+          "source_hash": "329197786c94b227e65808fdaefa7c8ddbd5e87a42e6fe14bde7160bd6be01de",
+          "temporal_status": "NOT_CHECKED"
+        },
+        {
+          "text": "이유 원문 발췌",
+          "source_id": "FICTIONAL_DEMO:precedent:900003",
+          "quote": "이것은 실제 판례가 아닌 가상 시험 자료이다. 가상 기록이 누락되어 확인할 수 없다.",
+          "status": "QUOTE_MATCH_ONLY",
+          "reason": "원문 문구 일치 확인. 주장의 법적 타당성은 별도 검토 필요",
+          "role": "case_analyst",
+          "locator": "원문 문자 129–175 / 줄 9",
+          "source_hash": "329197786c94b227e65808fdaefa7c8ddbd5e87a42e6fe14bde7160bd6be01de",
+          "temporal_status": "NOT_CHECKED"
+        }
+      ],
+      "excluded_claims": [],
+      "warnings": [],
+      "coverage": "EXTRACTIVE"
+    }
+  ],
+  "counter_claims": [],
+  "counter_candidates": [
+    {
+      "source_id": "FICTIONAL_DEMO:precedent:900003",
+      "case_number": "가상2099예시2",
+      "queries": [
+        "가상 통지 예외",
+        "가상 통지 부정",
+        "가상 통지 제한"
+      ],
+      "status": "CANDIDATE_NOT_CONFIRMED",
+      "reason": "반론 검색에서 발견. 원문 검토 전에는 반대 판례로 확정하지 않음"
+    },
+    {
+      "source_id": "FICTIONAL_DEMO:precedent:900002",
+      "case_number": "가상2099예시1",
+      "queries": [
+        "가상 통지 예외",
+        "가상 통지 부정",
+        "가상 통지 제한"
+      ],
+      "status": "CANDIDATE_NOT_CONFIRMED",
+      "reason": "반론 검색에서 발견. 원문 검토 전에는 반대 판례로 확정하지 않음"
+    }
+  ],
+  "search_queries": [
+    "가상 통지",
+    "가상 통지 예외",
+    "가상 통지 부정",
+    "가상 통지 제한"
+  ],
+  "memo": {
+    "검토 질문과 주장": "가상 통지 기록 유무에 따른 확인 절차를 검토\n검토할 주장: 가상 기록이 누락되어도 확인 표시가 가능하다는 주장",
+    "조사 결과와 잠정 의견": "가상 시연 자료를 분석했습니다. 실제 대한민국 법령·판례가 아닙니다.\n아래 설명은 원문 문구가 확인된 분석 후보이며 법적 결론은 미확정입니다.",
+    "관련 법령과 판례 근거": "확보된 원문 발췌 (AI 법률 판단 아님)\n인용: 이 가상 법은 소프트웨어 기능의 시연을 위한 예시이다.\n출처: FICTIONAL_DEMO:statute:900001 / 원문 문자 10–39 / 줄 2\n\n확보된 원문 발췌 (AI 법률 판단 아님)\n인용: 가상 기록이 존재하면 예시 절차에서 확인 표시를 할 수 있다.\n출처: FICTIONAL_DEMO:precedent:900002 / 원문 문자 34–67 / 줄 3\n\n확보된 원문 발췌 (AI 법률 판단 아님)\n인용: 가상 통지 기록이 누락된 경우의 확인 여부\n출처: FICTIONAL_DEMO:precedent:900003 / 원문 문자 18–40 / 줄 2",
+    "반론과 적용 한계": "확인된 근거 없음\n반대 검색 후보의 발견은 법리 충돌 확정을 의미하지 않습니다.",
+    "비판적 검토": "확인된 근거 없음",
+    "추가 확인 사항": "사건 사실관계, 적용 시점, 후속 판례 및 원문 전체를 검토하세요."
+  },
+  "request": {
+    "question": "가상 통지 기록 유무에 따른 확인 절차를 검토",
+    "law_query": "샘플거래법",
+    "precedent_query": "가상 통지",
+    "max_cases": 5,
+    "enable_llm": false,
+    "mode": "research",
+    "position": "가상 기록이 누락되어도 확인 표시가 가능하다는 주장",
+    "counterarguments": true,
+    "semantic_search": false,
+    "as_of": null
+  }
+}

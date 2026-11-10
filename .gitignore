@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.sqlite3
+*.sqlite3-*
+data/
+reports/
+*.log
+.coverage
+
+.doctor-check.sqlite3

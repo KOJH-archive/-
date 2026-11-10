@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux",
+  "sqlite": "3.53.1",
+  "fts5": true,
+  "law_oc_configured": false,
+  "ollama_allowed": true,
+  "chat_model_configured": false,
+  "embedding_model_configured": false,
+  "official_api": "NOT_TESTED",
+  "ollama": "NOT_TESTED",
+  "ego": "CLI_NOT_FOUND"
+}
